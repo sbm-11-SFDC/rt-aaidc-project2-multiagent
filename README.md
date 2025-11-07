@@ -71,9 +71,13 @@ GOOGLE_API_KEY=your_key_here
 
 ## ✅ How to Run
 
-Example:
+# Example:
 
-python -m src.app --repo "https://github.com/sbm-11-SFDC/rt-aaidc-project1-template"
+# make src a package (one-time)
+ni .\src\__init__.py -ItemType File -ErrorAction SilentlyContinue
+
+# run the app as a module
+python -m src.app --repo "https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent"
 
 ## 💡 Output files generated:
 
