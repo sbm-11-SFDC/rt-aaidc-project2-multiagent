@@ -92,9 +92,10 @@ outputs/report.txt
 ✔ Missing README sections checklist
 ✔ Final reviewer-style recommendations
 
-## ✅ Author
+👤 Author
 
 Suraj Mahale
 AI & Salesforce Developer
-GitHub: https://github.com/sbm-11-SFDC
+GitHub: 
+https://github.com/sbm-11-SFDC
 
