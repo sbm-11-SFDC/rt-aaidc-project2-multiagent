@@ -53,7 +53,7 @@ Final combined reviewer report
 | Output             | Text reports  |
 
 ## ✅ Project Structure
-![alt text](<Project Structure 2.png>)
+![alt text](<Project Structure.png>)
 
 ## ✅ Setup Instructions
 1️⃣ Create and activate virtual environment
