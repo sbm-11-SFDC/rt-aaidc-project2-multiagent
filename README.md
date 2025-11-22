@@ -97,7 +97,7 @@ python -m src.app --repo "https://github.com/sbm-11-SFDC/rt-aaidc-project2-multi
 
 Non-interactive (automated) mode:
 
-python -m src.app --repo "https://api.github.com/repos/{owner}/{repo}/readme"--no-interactive
+python -m src.app --repo "https://api.github.com/repos/{owner}/{repo}/readme" --no-interactive
 
 Example:
 
