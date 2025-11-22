@@ -39,7 +39,8 @@ Agents & Their Roles
 
 ## 🛠 Tools Used
 Several tools extend the intelligence of the agents:
-| Tool                               | Purpose                       | -------------------------------------------------------------------- |
+| Tool                               | Purpose                                                              |
+| ---------------------------------- | -------------------------------------------------------------------- |
 | **GitHub Content Reader**          | Fetches README content using GitHub’s raw content and API patterns.  |
 | **YAKE Keyword Extractor**         | Identifies salient keywords for tag generation.                      |
 | **Google Gemini LLM**              | Generates improved summaries, titles, and the final reviewer report. |
@@ -76,21 +77,17 @@ GOOGLE_API_KEY=your_google_api_key_here
 One-time setup (make src a package)
 ni .\src\__init__.py -ItemType File -ErrorAction SilentlyContinue
 
-## ▶️ Running the system (interactive HITL)
-
-# Analyze a public GitHub repo with human-in-the-loop checkpoints:
+▶️ Running the system (interactive HITL)
+Analyze a public GitHub repo with human-in-the-loop checkpoints:
 python -m src.app --repo "https://api.github.com/repos/{owner}/{repo}/readme"
 
 💡 Explanation:
-
 {owner} = GitHub username or organization
 {repo} = Repository name
-
 This URL correctly points to the GitHub REST API endpoint for the README file.
 
 # Example:
 python -m src.app --repo "https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent"
-
 
 # Non-interactive (automated) mode:
 python -m src.app --repo "https://api.github.com/repos/{owner}/{repo}/readme"--no-interactive
@@ -163,11 +160,11 @@ Execution time, reliability, and failure resilience
 
 The system achieved consistent output and demonstrated strong reliability during repeated test runs with different GitHub repositories.
 
-# 📦 License
+📦 License
 This project is licensed under the MIT License.
 See the [LICENSE] file for details
 
-# 👤 Author
+👤 Author
 Suraj Mahale
 AI & Salesforce Developer
 GitHub:https://github.com/sbm-11-SFDC
