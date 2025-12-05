@@ -60,13 +60,16 @@ Human approval checkpoints before critical transitions
 
 Together, these mechanisms demonstrate resilience and transparency — key expectations when shipping production-grade AI systems.
 
-🧪 Testing & Quality Assurance
+## 🧪 Testing & Quality Assurance
 
 A complete pytest test suite is included:
 
 ✔ URL validation
+
 ✔ Keyword extraction logic
+
 ✔ Workflow execution test using monkeypatching
+
 ✔ Assertions on HITL propagation into final recommendations
 
 Run all tests:
@@ -128,7 +131,7 @@ Several tools extend the intelligence of the agents:
 ## 📁 Project Structure
 ![alt text](<Project Structure.png>)
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 1️⃣ Create and activate a virtual environment
 python -m venv .venv
@@ -183,7 +186,7 @@ outputs/recommendations_<timestamp>.txt
 
 outputs/report_<timestamp>.txt
 
-# 🧩 Human-in-the-Loop (HITL) Interaction
+## 🧩 Human-in-the-Loop (HITL) Interaction
 
 At key phases, the system pauses and asks the user:
 
@@ -195,7 +198,7 @@ Override auto-generated suggestions?
 
 This ensures trust, transparency, and human oversight—important principles for agentic AI systems.
 
-# 🛡 Production-Grade Enhancements (Module 3 Requirements Achieved)
+## 🛡 Production-Grade Enhancements (Module 3 Requirements Achieved)
 
 This repository demonstrates:
 
@@ -215,7 +218,7 @@ This repository demonstrates:
 
 ✔ Persistent output storage
 
-# 🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 The system follows a clear multi-agent pipeline:
 
@@ -229,7 +232,7 @@ Reviewer Agent evaluates the combined output and produces the final consolidated
 
 Human Reviewer (HITL) optionally refines or approves the final result.
 
-# 🛡️ Safety, Error Handling & System Resilience
+## 🛡️ Safety, Error Handling & System Resilience
 
 The system incorporates multiple layers of defensive design:
 
@@ -247,7 +250,7 @@ Human approval required before finalizing key stages
 
 These measures collectively ensure the system remains stable, interpretable, and reliable even during edge-case scenarios.
 
-# 📈 Performance Evaluation
+## 📈 Performance Evaluation
 
 Internal evaluation confirmed:
 
@@ -265,12 +268,12 @@ Resilience during malformed URL / missing README tests
 
 These findings are reflected in test logs and manual experiments.
 
-# 📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
 See the [LICENSE] file for details
 
-# 👤 Author
+## 👤 Author
 
 Suraj Mahale
 
