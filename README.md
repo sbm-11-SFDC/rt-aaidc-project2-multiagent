@@ -1,10 +1,79 @@
-# 📚 Multi-Agent Publication Reviewer & Recommendation System (AAIDC – Project 2)
+# 📚 Multi-Agent Publication Reviewer & Recommendation System 
+(AAIDC — Module 2 / Production-Ready Version — Module 3)
 
-This project implements a multi-agent AI system that analyzes GitHub repositories and produces actionable recommendations for improving technical publications.
-The system evaluates README structure, tag quality, metadata completeness, clarity of explanation, and missing documentation.
-It generates a concise reviewer-style report combining feedback from multiple specialized agents, creating a publish-ready improvement guide.
+This repository contains a production-ready multi-agent AI system that analyzes GitHub repositories, evaluates the quality of their documentation, and produces structured improvement recommendations.
 
-This project was developed as part of the Ready Tensor – Agentic AI Developer Certification (Module 2) and demonstrates multi-agent collaboration, tool augmentation, human-in-the-loop validation, and structured workflow orchestration using LangGraph.
+The system demonstrates agent collaboration, human-in-the-loop supervision, automated reasoning, safety enhancements, UI-based interaction, and traceable execution — aligned with industry expectations for real-world AI applications.
+
+Originally built for Module 2 of the Ready Tensor Agentic AI Developer Certification, this upgraded version integrates Module 3 requirements by adding a resilient workflow, a Streamlit interface, comprehensive testing, improved error handling, and enhanced observability.
+
+## 🌟 What the System Does
+
+Rather than acting as a simple text analyzer, this system conducts a reviewer-style assessment of a repository’s README file. Multiple specialist agents evaluate structure, keyword usage, clarity, missing documentation signals, thematic representation, and content quality. Outputs are consolidated into a final report that can be used to improve open-source repositories or internal documentation standards.
+
+The application retrieves repository content, examines it through coordinated agent reasoning steps, invites human validation where needed, and presents the synthesized output as actionable recommendations.
+
+## 🧩 Multi-Agent Architecture
+
+The assistant consists of four collaborating agents, each specializing in a different role:
+
+1. Repository Analyzer — inspects README structure, word density, and missing sections.
+
+2. Tag Recommender — extracts semantic signals and proposes meaningful tags via lightweight keyword analysis.
+
+3. Content Improver — rewrites titles and introductory paragraphs to improve clarity and structure.
+
+4. Reviewer — aggregates agent outputs into a refined report suitable for publication or review submission.
+
+Human insight is layered in between to resolve ambiguity, correct context, and override suggestions where needed.
+
+## 🖥 New User Interface (Module 3 Upgrade)
+
+To make the system accessible beyond CLI usage, a full Streamlit UI has been added:
+
+✔ Form-based repo submission
+
+✔ Optional reviewer notes (HITL input)
+
+✔ Real-time execution feedback
+
+✔ Side-by-side display of recommendations and keywords
+
+✔ Built-in validation and error messaging
+
+Run the app:
+streamlit run ui/app.py
+
+## 🔐 System Safety, Reliability & Error Handling
+
+The Module 3 version introduces defensive engineering practices:
+
+Retry logic with backoff for network failures
+
+Input validation and sanitization for repository URLs and content
+
+Graceful fallback responses for empty or malformed READMEs
+
+Logging for debugging and traceability
+
+Human approval checkpoints before critical transitions
+
+Together, these mechanisms demonstrate resilience and transparency — key expectations when shipping production-grade AI systems.
+
+🧪 Testing & Quality Assurance
+
+A complete pytest test suite is included:
+
+✔ URL validation
+✔ Keyword extraction logic
+✔ Workflow execution test using monkeypatching
+✔ Assertions on HITL propagation into final recommendations
+
+Run all tests:
+
+python -m pytest
+
+All tests finish successfully, validating workflow correctness and HITL integration.
 
 ## 🌟 Key Features
 
@@ -103,7 +172,12 @@ Example:
 
 python -m src.app --repo "https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent" --no-interactive
 
-Generated Output
+UI Mode (recommended for Module 3)
+streamlit run ui/app.py
+
+The UI provides guided input, validation, execution trace, and side-by-side results.
+
+Generated reports are saved to:
 
 outputs/recommendations_<timestamp>.txt
 
@@ -120,6 +194,26 @@ Edit suggested title / intro / excerpt?
 Override auto-generated suggestions?
 
 This ensures trust, transparency, and human oversight—important principles for agentic AI systems.
+
+# 🛡 Production-Grade Enhancements (Module 3 Requirements Achieved)
+
+This repository demonstrates:
+
+✔ UI layer
+
+✔ Logging and observability
+
+✔ Retry + error handling
+
+✔ Validation and sanitization
+
+✔ End-to-end test coverage
+
+✔ HITL design
+
+✔ Non-interactive automation mode
+
+✔ Persistent output storage
 
 # 🏗️ Architecture Overview
 
@@ -153,22 +247,23 @@ Human approval required before finalizing key stages
 
 These measures collectively ensure the system remains stable, interpretable, and reliable even during edge-case scenarios.
 
-# 📊 Performance Evaluation (Summary)
+# 📈 Performance Evaluation
 
-A full evaluation report is available in performance_evaluation.md.
-The assessment covered:
+Internal evaluation confirmed:
 
-Retrieval and parsing stability across multiple repositories
+Stable execution across multiple repositories
 
-Agent-to-agent coordination performance
+Correct agent sequencing
 
-Robustness under malformed URLs, missing READMEs, and unexpected text formats
+Meaningful keyword extraction
 
-Human-in-the-loop interaction timing and error recovery
+Accurate consolidation into final reports
 
-Execution time, reliability, and failure resilience
+Successful HITL overrides
 
-The system achieved consistent output and demonstrated strong reliability during repeated test runs with different GitHub repositories.
+Resilience during malformed URL / missing README tests
+
+These findings are reflected in test logs and manual experiments.
 
 # 📄 License
 This project is licensed under the MIT License.

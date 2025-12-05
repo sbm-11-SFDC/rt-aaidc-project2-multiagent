@@ -1,0 +1,61 @@
+2025-12-05 19:21:24 | INFO | __main__ | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 19:21:24 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 19:21:24 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-05 19:55:53 | INFO | __main__ | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 19:55:53 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 19:55:53 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-05 19:56:41 | INFO | __main__ | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report.txt
+2025-12-05 20:31:59 | INFO | src.tools | Fetching README for repo: https://github.com/owner/repo
+2025-12-05 20:31:59 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/owner/repo/readme
+2025-12-05 20:32:00 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/main/README.md
+2025-12-05 20:32:01 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/master/README.md
+2025-12-05 20:32:02 | ERROR | src.tools | Unable to fetch README for repo: https://github.com/owner/repo
+2025-12-05 20:32:02 | WARNING | src.tools | safe_call retry after error: README content is empty or could not be retrieved.
+2025-12-05 20:32:03 | INFO | src.tools | Fetching README for repo: https://github.com/owner/repo
+2025-12-05 20:32:03 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/owner/repo/readme
+2025-12-05 20:32:04 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/main/README.md
+2025-12-05 20:32:04 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/master/README.md
+2025-12-05 20:32:05 | ERROR | src.tools | Unable to fetch README for repo: https://github.com/owner/repo
+2025-12-05 20:32:05 | WARNING | src.tools | safe_call retry after error: README content is empty or could not be retrieved.
+2025-12-05 20:32:07 | INFO | src.tools | Fetching README for repo: https://github.com/owner/repo
+2025-12-05 20:32:07 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/owner/repo/readme
+2025-12-05 20:32:08 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/main/README.md
+2025-12-05 20:32:08 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/master/README.md
+2025-12-05 20:32:09 | ERROR | src.tools | Unable to fetch README for repo: https://github.com/owner/repo
+2025-12-05 20:32:09 | WARNING | src.tools | safe_call retry after error: README content is empty or could not be retrieved.
+2025-12-05 20:32:13 | ERROR | src.tools | safe_call exhausted retries, last error: README content is empty or could not be retrieved.
+2025-12-05 20:35:47 | INFO | src.tools | Fetching README for repo: https://github.com/owner/repo
+2025-12-05 20:35:47 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/owner/repo/readme
+2025-12-05 20:35:48 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/main/README.md
+2025-12-05 20:35:49 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/master/README.md
+2025-12-05 20:35:50 | ERROR | src.tools | Unable to fetch README for repo: https://github.com/owner/repo
+2025-12-05 20:35:50 | WARNING | src.tools | safe_call retry after error: README content is empty or could not be retrieved.
+2025-12-05 20:35:51 | INFO | src.tools | Fetching README for repo: https://github.com/owner/repo
+2025-12-05 20:35:51 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/owner/repo/readme
+2025-12-05 20:35:51 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/main/README.md
+2025-12-05 20:35:52 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/master/README.md
+2025-12-05 20:35:52 | ERROR | src.tools | Unable to fetch README for repo: https://github.com/owner/repo
+2025-12-05 20:35:52 | WARNING | src.tools | safe_call retry after error: README content is empty or could not be retrieved.
+2025-12-05 20:35:54 | INFO | src.tools | Fetching README for repo: https://github.com/owner/repo
+2025-12-05 20:35:54 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/owner/repo/readme
+2025-12-05 20:35:55 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/main/README.md
+2025-12-05 20:35:56 | INFO | src.tools | Trying raw README at: https://raw.githubusercontent.com/owner/repo/master/README.md
+2025-12-05 20:35:56 | ERROR | src.tools | Unable to fetch README for repo: https://github.com/owner/repo
+2025-12-05 20:35:56 | WARNING | src.tools | safe_call retry after error: README content is empty or could not be retrieved.
+2025-12-05 20:36:00 | ERROR | src.tools | safe_call exhausted retries, last error: README content is empty or could not be retrieved.
+2025-12-05 20:51:14 | WARNING | src.tools | safe_call retry after error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 20:51:15 | WARNING | src.tools | safe_call retry after error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 20:51:17 | WARNING | src.tools | safe_call retry after error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 20:51:21 | ERROR | src.tools | safe_call exhausted retries, last error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 21:02:52 | WARNING | src.tools | safe_call retry after error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 21:02:53 | WARNING | src.tools | safe_call retry after error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 21:02:55 | WARNING | src.tools | safe_call retry after error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 21:02:59 | ERROR | src.tools | safe_call exhausted retries, last error: test_run_review_workflow_monkeypatched.<locals>.<lambda>() got an unexpected keyword argument 'timeout'
+2025-12-05 21:03:39 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 21:03:39 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-05 21:18:05 | INFO | app | Starting pipeline for repo: https://github.com/owner/repo
+2025-12-05 21:18:05 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1764949685.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1764949685.txt
+2025-12-05 21:18:40 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 21:18:40 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-05 21:18:40 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-05 21:18:41 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1764949721.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1764949721.txt

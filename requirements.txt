@@ -29,3 +29,8 @@ tenacity==9.1.2           # standardized exponential-backoff retries
 # gitpython==3.1.31        # for cloning & inspecting repos locally
 # tqdm==4.67.1             # progress bars for ingestion or multi-repo scanning
 # loguru==0.7.0            # advanced logging (optional)
+
+# NEW: UI + logging + testing
+streamlit
+pytest
+rich
