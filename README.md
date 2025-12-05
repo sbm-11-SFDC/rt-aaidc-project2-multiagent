@@ -1,5 +1,4 @@
-# 📚 Multi-Agent Publication Reviewer & Recommendation System 
-(AAIDC — Module 2 / Production-Ready Version — Module 3)
+# 📚 Multi-Agent Publication Reviewer & Recommendation System (AAIDC — Module 2 / Production-Ready Version — Module 3)
 
 This repository contains a production-ready multi-agent AI system that analyzes GitHub repositories, evaluates the quality of their documentation, and produces structured improvement recommendations.
 
