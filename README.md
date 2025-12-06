@@ -174,6 +174,10 @@ Example:
 
 python -m src.app --repo "https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent" --no-interactive
 
+Run tests again:
+
+python -m pytest
+
 UI Mode (recommended for Module 3)
 
 streamlit run ui/app.py
