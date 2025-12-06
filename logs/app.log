@@ -59,3 +59,41 @@
 2025-12-05 21:18:40 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
 2025-12-05 21:18:40 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
 2025-12-05 21:18:41 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1764949721.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1764949721.txt
+2025-12-06 18:30:32 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:30:32 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:30:32 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project2-multiagent/readme
+2025-12-06 18:30:55 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765026055.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765026055.txt
+2025-12-06 18:31:10 | INFO | app | Starting pipeline for repo: https://github.com/owner/repo
+2025-12-06 18:31:10 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765026070.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765026070.txt
+2025-12-06 18:31:30 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:31:30 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:31:30 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-06 18:31:32 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765026092.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765026092.txt
+2025-12-06 18:52:09 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:52:09 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:52:09 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project2-multiagent/readme
+2025-12-06 18:52:10 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027330.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027330.txt
+2025-12-06 18:53:03 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:53:03 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:53:03 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project2-multiagent/readme
+2025-12-06 18:53:14 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027394.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027394.txt
+2025-12-06 18:53:26 | INFO | app | Starting pipeline for repo: https://github.com/owner/repo
+2025-12-06 18:53:26 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027406.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027406.txt
+2025-12-06 18:53:50 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:53:50 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:53:50 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-06 18:53:51 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027431.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027431.txt
+2025-12-06 18:55:15 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:55:15 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:55:15 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-06 18:55:16 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027516.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027516.txt
+2025-12-06 18:57:30 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:57:30 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project2-multiagent
+2025-12-06 18:57:30 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project2-multiagent/readme
+2025-12-06 18:57:46 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027666.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027666.txt
+2025-12-06 18:57:59 | INFO | app | Starting pipeline for repo: https://github.com/owner/repo
+2025-12-06 18:57:59 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027679.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027679.txt
+2025-12-06 18:58:22 | INFO | app | Starting pipeline for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:58:22 | INFO | src.tools | Fetching README for repo: https://github.com/sbm-11-SFDC/rt-aaidc-project1-template
+2025-12-06 18:58:22 | INFO | src.tools | Fetching README via GitHub API: https://api.github.com/repos/sbm-11-SFDC/rt-aaidc-project1-template/readme
+2025-12-06 18:58:23 | INFO | app | Pipeline complete. Outputs written to C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\recommendations_1765027703.txt and C:\Users\Soberr\Downloads\Ready Tensor AI\rt-aaidc-project2-multiagent\outputs\report_1765027703.txt
